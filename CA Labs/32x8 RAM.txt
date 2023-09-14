@@ -1,3 +1,5 @@
+-- 32x8 RAM
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
@@ -36,3 +38,12 @@ begin
 
     data_out <= ram_data(to_integer(unsigned(address)));
 end Behav;
+
+-- Force address, data_in, write_in, clock
+-- Give 11111 to address
+-- Give random 8 bit number to data_in
+-- Give 1 to write_in
+-- Give 1 to clock_in
+-- F9
+-- In next run, force clock_in & give 0
+

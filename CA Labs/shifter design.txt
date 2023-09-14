@@ -25,3 +25,9 @@ begin
         end case;
     end process;
 end Behavioral;
+
+-- Step 1: Force SHIFTINPUT, SHIFT_Ctrl
+-- Step 2: Give random 16 bit number in SHIFTINPUT
+-- Step 3: Give 1000 in SHIFT_Ctrl
+-- Step 4: F9
+-- Step 5: Give another 16 bit number & give 1001 & 1010 in another 2 runs

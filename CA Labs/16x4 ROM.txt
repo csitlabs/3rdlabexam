@@ -1,3 +1,5 @@
+-- 16x4 ROM
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -23,3 +25,9 @@ begin
         dout <= ROM_16_4(to_integer(unsigned(address)));
     end process main;
 end architecture RTL;
+
+-- Force address
+-- Give 0000
+-- F9
+-- Give 1111
+-- F9

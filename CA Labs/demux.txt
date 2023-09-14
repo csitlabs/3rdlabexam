@@ -1,6 +1,6 @@
 -- VHDL code for 1:4 DEMUX
+-- Not in lab
 
--- Header file declaration
 
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;

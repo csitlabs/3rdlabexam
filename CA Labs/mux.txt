@@ -28,3 +28,9 @@ BEGIN
         END IF;
     END PROCESS;
 END bhv;
+
+-- Force A, B, C, D, S0, S1
+-- Give random binary digits to a, b, c, d
+-- Give 0 to s1 , 0 to s2
+-- F9
+-- repeat the process but give s0 = 1 & s1 = 0 and s0 = 0 & s1 = 1 in another runs

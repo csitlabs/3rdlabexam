@@ -1,3 +1,5 @@
+-- ALU
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -36,4 +38,8 @@ begin
 end process;
 end ALU_arc;
 
-
+-- Force selection_line, a, b
+-- Give 4 bit number in a & b
+-- Give 000 in selection_line
+-- F9
+-- Repeat the process with 001, 010, 011, 100, 101, 110 in selection_line after each run

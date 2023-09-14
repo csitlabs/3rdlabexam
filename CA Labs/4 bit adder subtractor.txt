@@ -1,3 +1,5 @@
+-- 4 bit adder subtractor
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
@@ -24,3 +26,13 @@ begin
     cf <= c(4);
     ovf <= c(3) xor c(4);
 end struct;
+
+-- Force M, a, b
+-- Give 0 in M as input
+-- Give 4 digit binary number in a (eg 1101)
+-- Give 4 digit binary number in b (eg 1100)
+-- F9
+-- Now change the value of M to 1
+-- F9
+-- Repeat the process 2 more times
+
