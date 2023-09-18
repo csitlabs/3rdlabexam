@@ -6,8 +6,8 @@
 #define EPS 0.00001
 
 float f(float x) {
-    return x * x * x - 3 * x + 1;	// change this function for another run
-  //  return 2 * sin(x) - x;
+    return x * x * x - 3 * x + 1; //Inputs 0 1	// change this function for another run
+  //  return 2 * sin(x) - x;	//Inputs 1 2
 }
 
 int main() {
@@ -32,4 +32,3 @@ int main() {
     printf("The approximate root of the given function is %f with %d number of iterations.", x2, n);
     return 0;
 }
-

@@ -50,3 +50,13 @@ do {
 } while (q == 'y');
     return 0;
 }
+
+/*
+Inputs first run: 2
+: 1 -3 2
+: 2
+
+Inputs second run: 4
+: 1 -16 11 -6 1
+: 1
+*/

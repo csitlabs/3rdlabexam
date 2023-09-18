@@ -5,7 +5,7 @@
 
 float f(float x, float y)
 {
-   // return y - x * x + 1;
+   // return y - x * x + 1;	//change functions
     return 2 * x + y - 1;
 }
 
@@ -39,3 +39,13 @@ int main()
         return 0;
     }
 
+
+/*
+Inputs first run: 0 1
+: 1
+: 0.1
+
+Inputrs second run: 0 1
+: 1
+: 0.1
+*/

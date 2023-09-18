@@ -38,3 +38,12 @@ int main()
     printf("\nThe line that is fit to the given data is y = %f + %fx.", a, b);
     return 0;
 }
+
+/*
+Inputs: 4
+
+: 0 1
+1 3
+2 5
+3 7
+*/

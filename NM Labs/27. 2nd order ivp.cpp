@@ -65,3 +65,13 @@ int main() {
     return 0;
 }
 
+/*
+Inputs first run: 0
+: 1
+: 2
+: 0.1
+: 0.5
+
+Inputs second run: 1
+*/
+

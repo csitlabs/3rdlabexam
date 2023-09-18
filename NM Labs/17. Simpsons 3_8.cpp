@@ -5,7 +5,7 @@
 
 float f(float x)
 {
-//	return exp(-x * x);
+//	return exp(-x * x); //change functions
 	return x * x * exp(sqrt(x));
 }
 
@@ -39,3 +39,13 @@ int main()
 
 	return 0;
 }
+
+/*
+Inputs first run: 0
+: 3
+: 9
+
+Inputs second run: 0
+: 3
+: 9
+*/

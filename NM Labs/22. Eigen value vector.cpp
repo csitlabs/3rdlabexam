@@ -81,3 +81,10 @@ int main() //(void)
 
     return 0;
 }
+
+/*
+Inputs: 2
+
+: 3 1
+1 2
+*/

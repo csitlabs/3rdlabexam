@@ -32,3 +32,8 @@ int main(void)
 
     return 0;
 }
+
+/*
+Inputs first run: 1
+Inputs second run: 1
+*/

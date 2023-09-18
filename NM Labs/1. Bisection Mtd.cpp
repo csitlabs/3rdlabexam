@@ -7,7 +7,6 @@
 
 float f(float x) {
   // return x * x * x - 2 * sin(x); // change this function for another run
-  //  return x*x*x -3;
   return x * x * x - 5;
 }
 
@@ -36,3 +35,8 @@ int main() {
     printf("The approximate root of the given function is %f with %d number of iterations.", c, n);
     return 0;
 }
+
+/* 
+Inputs first run: 1 2
+Inputs second run: 1 2
+*/

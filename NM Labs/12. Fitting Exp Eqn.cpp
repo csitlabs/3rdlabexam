@@ -43,3 +43,11 @@ int main()
     printf("\n The exponential equation that is fit to the given data is y = %f e ^ %fx.", a, b);
     return 0;
 }
+
+/*
+Inputs: 3
+
+: 1 2
+2 4
+3 8
+*/

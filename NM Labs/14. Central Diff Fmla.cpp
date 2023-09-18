@@ -5,7 +5,7 @@
 
 float f(float x)
 {
-//	return x * x * exp(sqrt(x)) * sin(x);
+//	return x * x * exp(sqrt(x)) * sin(x); //change functions
 	return sin(x)+cos(x);
 }
 
@@ -32,3 +32,11 @@ int main()
 
 	return 0;
 }
+
+/*
+Inputs first run: 2
+: 1
+
+Inputs second run: 2
+: 1
+*/

@@ -43,3 +43,16 @@ int main()
     } while (q == 'y');
     return 0;
 }
+
+/*
+Inputs first run: 4
+
+: 1 2
+2 4
+3 8
+4 16
+
+: 3
+
+Inputs second run: 4
+*/
